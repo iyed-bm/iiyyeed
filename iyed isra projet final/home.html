@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" href="lotus.png">
+      <link rel="stylesheet" href="projet1.css">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Pour la forme </title>
+    
+  </head>
+  <body style="background-color: lightblue;">
+   
+    <nav style="z-index: 99999;" class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+         <!-- <a class="navbar-brand" href="home.html">Accueil</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>-->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item" >
+              <a class="nav-link active" aria-current="page" href="home.html"><img id="nav" src="home.png" alt="icon">Accueil </a>
+            </li>
+            <li class="nav-item" >
+              <a class="nav-link" href="megrir.html"><img id="nav" src="shop.png" alt="icon">store </a>
+            </li>
+            <li class="nav-item" >
+              <a class="nav-link" href="grossir.html"><img id="nav" src="fat.png" alt="icon"Pour Grossir >pour grossir</a>
+            </li>
+            <li class="nav-item" >
+              <a class="nav-link" href="info.html" ><img  id="nav"src="body.png" alt="icon">Pour Megrir </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+            
+          </ul>
+          
+        </div>
+      </div>
+    </nav>
+    <main >
+      <img width="100%" class="imago" src="https://images.pexels.com/photos/2828283/pexels-photo-2828283.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="img">
+      <section class="try">
+        <b><p>Voulez vous perdre ou prendre du poids ?</p></b>
+      <a  href="formulaire.html"><input class="button" type="button" value="inscrire" > </a> 
+   
+      <footer npm="" install="" bootstrap=""  html=""> </footer>
+    </div>
+    </main>
+      </section>
+      <script>
+        function CalculerIMC() {
+            poids= parseFloat(document.getElementById("poids").value)
+            tailleEnCm= parseFloat(document.getElementById("taille").value)
+            tailleEnM= tailleEnCm/100;
+            imc = Math.round(poids/(tailleEnM*tailleEnM))
+            if (imc < 25) {
+                document.getElementById("resultat").innerHTML= "Ton IMC est "+imc+" tu as poids ideale"
+            }if(imc < 18.5){
+                document.getElementById("resultat").innerHTML= "Ton IMC est "+imc+" tu es tres mince"
+            }else{
+                document.getElementById("resultat").innerHTML= 'ton IMC est '+imc+ "Tu es obese"
+            }
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+  </body>
+</html>
